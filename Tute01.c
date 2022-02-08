@@ -6,7 +6,7 @@
 
 int main() {
   int m1,m2;
-  float avg;
+  float avg_;
    
    printf("Enter the mark 1 : ");
    scanf("%d",&m1);
@@ -14,9 +14,9 @@ int main() {
    printf("Enter the mark 2 : ");
    scanf("%d",&m2);
    
-   avg = (m1 + m2)/2;
+   avg_ = (m1 + m2)/2;
    
-   printf("The average of the two marks are : %f\n",avg);
+   printf("The average of the two marks are : %f\n",avg_);
    printf("/n");
    
   return 0;
